@@ -27,7 +27,59 @@ body {
   background-color: var(--light-white);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  }
+
 /*header styles*/
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navigation{
+  display: flex;  
+}
+
+.nav-menu{
+  display: flex;  
+}
 
 .logo-text {
   color: var(--blue-main-iris);
@@ -49,11 +101,15 @@ body {
   letter-spacing: 0.32px;
   color: var(--black-navy);
 }
-.contacts{
+.contacts {
   font-style: normal;
 }
 
-.contacts-list-link {  
+.contacts-list{
+  display: flex;
+}
+
+.contacts-list-link {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--dark-grey-slate);
@@ -93,7 +149,7 @@ body {
   color: var(--light-white);
 }
 
-.hero-button {  
+.hero-button {
   font-family: var(--main-font-family);
   font-size: 16px;
   font-weight: 500;
@@ -110,6 +166,10 @@ body {
 
 /*Advantages section*/
 
+.advantages-list{
+  display: flex;
+}
+
 .advantage-title {
   font-size: 20px;
   font-weight: 500;
@@ -120,20 +180,27 @@ body {
 
 .advantage-text {
   line-height: 1.5;
-  letter-spacing: 0.32px;  
+  letter-spacing: 0.32px;
+}
+
+/*Our work section*/
+
+.work-list{
+  display: flex;
 }
 
 /*Our Team section*/
 
-.team-section{
+.team-section {
   background-color: var(--dark-white-cloud);
 }
 
 .team-list {
+  display: flex;
   text-align: center;
 }
 
-.team-member{
+.team-member {
   background-color: var(--light-white);
 }
 
@@ -147,7 +214,7 @@ body {
 
 .team-member-position {
   line-height: 1.5;
-  letter-spacing: 0.32px;  
+  letter-spacing: 0.32px;
 }
 
 /*footer*/
@@ -182,6 +249,15 @@ body {
 .exhample-filter-button:focus {
   color: var(--light-white);
   background-color: var(--blue-pressed-ocean);
+}
+
+.filter-buttons-list{
+  display: flex;
+}
+
+.work-exhamples-list{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .work-exhample-title {
