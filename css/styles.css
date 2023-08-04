@@ -1,0 +1,206 @@
+:root {
+  --black-navy: #2e2f42;
+  --dark-grey-slate: #434455;
+  --blue-main-iris: #4d5ae5;
+  --blue-pressed-ocean: #404bbf;
+  --light-white: #ffffff;
+  --dark-white-cloud: #f4f4fd;
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: var(--dark-grey-slate);
+  background-color: var(--light-white);
+}
+
+/*header styles*/
+
+.logo-text {
+  color: var(--blue-main-iris);
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-span-header {
+  color: var(--black-navy);
+}
+
+.nav-menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--black-navy);
+}
+.contacts{
+  font-style: normal;
+}
+
+.contacts-list-link {  
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--dark-grey-slate);
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus,
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: var(--blue-pressed-ocean);
+}
+
+/*Main*/
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--black-navy);
+}
+
+/*Section Hero*/
+
+.hero-section {
+  background-color: var(--black-navy);
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: var(--light-white);
+}
+
+.hero-button {  
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--light-white);
+  background-color: var(--blue-main-iris);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--blue-pressed-ocean);
+}
+
+/*Advantages section*/
+
+.advantage-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--black-navy);
+}
+
+.advantage-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;  
+}
+
+/*Our Team section*/
+
+.team-section{
+  background-color: var(--dark-white-cloud);
+}
+
+.team-list {
+  text-align: center;
+}
+
+.team-member{
+  background-color: var(--light-white);
+}
+
+.team-member-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--black-navy);
+}
+
+.team-member-position {
+  line-height: 1.5;
+  letter-spacing: 0.32px;  
+}
+
+/*footer*/
+
+.page-footer {
+  background-color: var(--black-navy);
+}
+
+.logo-span-footer {
+  color: var(--dark-white-cloud);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--dark-white-cloud);
+}
+
+/*Portfolio*/
+
+.exhample-filter-button {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--blue-main-iris);
+  background-color: var(--dark-white-cloud);
+}
+
+.exhample-filter-button:hover,
+.exhample-filter-button:focus {
+  color: var(--light-white);
+  background-color: var(--blue-pressed-ocean);
+}
+
+.work-exhample-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--black-navy);
+}
+
+.work-exhample-type {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--dark-grey-slate);
+}
+
+.work-exhample-title:hover,
+.work-exhample-title:focus,
+.work-exhample-type:hover,
+.work-exhample-type:focus {
+  color: var(--blue-pressed-ocean);
+}
