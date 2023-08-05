@@ -21,12 +21,6 @@ button {
   cursor: pointer;
 }
 
-body {
-  font-family: var(--main-font-family);
-  color: var(--dark-grey-slate);
-  background-color: var(--light-white);
-}
-
 h1,
 h2,
 h3,
@@ -43,6 +37,16 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+
+img{
+  display: block;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: var(--dark-grey-slate);
+  background-color: var(--light-white);
 }
 
 .container {
@@ -68,9 +72,14 @@ ol {
 
 /*header styles*/
 
+.page-header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 
 .main-navigation{
@@ -78,7 +87,9 @@ ol {
 }
 
 .nav-menu{
-  display: flex;  
+  display: flex;
+  column-gap: 40px;  
+  
 }
 
 .logo-text {
@@ -89,6 +100,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-span-header {
@@ -107,6 +119,7 @@ ol {
 
 .contacts-list{
   display: flex;
+  column-gap: 40px;
 }
 
 .contacts-list-link {
@@ -126,6 +139,7 @@ ol {
 
 .section-title {
   text-align: center;
+  margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -139,9 +153,12 @@ ol {
 .hero-section {
   background-color: var(--black-navy);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;  
 }
 
 .hero-title {
+  margin-bottom: 48px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -150,6 +167,9 @@ ol {
 }
 
 .hero-button {
+  height: 56px;
+  padding-left: 32px;
+  padding-right: 32px;
   font-family: var(--main-font-family);
   font-size: 16px;
   font-weight: 500;
@@ -157,6 +177,8 @@ ol {
   letter-spacing: 0.04em;
   color: var(--light-white);
   background-color: var(--blue-main-iris);
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -165,6 +187,11 @@ ol {
 }
 
 /*Advantages section*/
+
+.advantages-section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .advantages-list{
   display: flex;
@@ -185,19 +212,27 @@ ol {
 
 /*Our work section*/
 
+.our-work{
+  padding-bottom: 120px;
+}
+
 .work-list{
   display: flex;
+  column-gap: 24px;
 }
 
 /*Our Team section*/
 
 .team-section {
   background-color: var(--dark-white-cloud);
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .team-list {
   display: flex;
   text-align: center;
+  column-gap: 24px;
 }
 
 .team-member {
@@ -235,6 +270,11 @@ ol {
 
 /*Portfolio*/
 
+.work-exhamples-section{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .exhample-filter-button {
   font-family: var(--main-font-family);
   font-size: 16px;
@@ -253,11 +293,16 @@ ol {
 
 .filter-buttons-list{
   display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  margin-bottom: 72px;
 }
 
 .work-exhamples-list{
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .work-exhample-title {
