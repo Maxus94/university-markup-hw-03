@@ -345,7 +345,7 @@ body {
 .filter-buttons-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
   margin-bottom: 72px;
 }
 
