@@ -259,7 +259,7 @@ body {
 .team-member {
   flex-basis: calc((100% - 72px) / 4);
   background-color: var(--light-white);
-  padding-bottom: 32px;
+  
   border-radius: 0px 0px 4px 4px;
 }
 
